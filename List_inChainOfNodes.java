@@ -10,7 +10,8 @@ public class List_inChainOfNodes{
       Construct an empty list
      */
     public List_inChainOfNodes() {
-        headSentinel = new Node( null, null);
+        headSentinel = new Node( null, null, null);
+        tailSentinel = new Node( null, null, null);
     }
 
     /**
